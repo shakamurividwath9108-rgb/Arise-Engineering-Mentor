@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Front-facing shadow hunter</title>
+  <desc id="desc">An original front-facing anime hunter portrait with dark armor and violet eyes.</desc>
+  <defs>
+    <radialGradient id="aura"><stop stop-color="#7e36e6" stop-opacity=".55"/><stop offset=".52" stop-color="#3c2873" stop-opacity=".3"/><stop offset="1" stop-color="#080811" stop-opacity="0"/></radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e6d4e9"/><stop offset=".65" stop-color="#b9a9ca"/><stop offset="1" stop-color="#716986"/></linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#292333"/><stop offset=".48" stop-color="#0b0a12"/><stop offset="1" stop-color="#3e3155"/></linearGradient>
+    <linearGradient id="armor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65507d"/><stop offset=".35" stop-color="#242030"/><stop offset=".7" stop-color="#11121d"/><stop offset="1" stop-color="#5c4778"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <ellipse cx="150" cy="134" rx="131" ry="139" fill="url(#aura)"/>
+  <ellipse cx="150" cy="126" rx="91" ry="111" fill="#a95aff" opacity=".12" filter="url(#soft)"/>
+  <path d="M25 300c8-49 37-74 75-88h100c39 15 66 41 75 88z" fill="#090910" stroke="#7254a0" stroke-width="2"/>
+  <path d="M78 225l31-28h82l31 29-21 75H99z" fill="url(#armor)" stroke="#9877be" stroke-width="2"/>
+  <path d="M113 190h74v48l-37 28-37-28z" fill="#17141f" stroke="#8a6cae" stroke-width="2"/>
+  <path d="M91 222l43 24-20 54H69l14-52-21 25-17-30zM209 222l-43 24 20 54h45l-14-52 21 25 17-30z" fill="#17151f" stroke="#80659e" stroke-width="2"/>
+  <path d="M149 237l-23 21 24 41 24-41z" fill="#0a0a12" stroke="#a275d4" stroke-width="2"/>
+  <path d="M119 203l31 31 31-31" fill="none" stroke="#c8a1ff" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M90 95c-7-46 19-74 59-74 45 0 71 34 59 84l-8 40H99z" fill="url(#hair)" stroke="#796295" stroke-width="2"/>
+  <path d="M103 94c-17-2-26 14-21 33 3 12 11 18 22 17M197 94c17-2 26 14 21 33-3 12-11 18-22 17" fill="#b5a3bf" stroke="#51445e" stroke-width="2"/>
+  <path d="M101 89c0-27 19-45 49-45s49 18 49 45v53c0 34-23 57-49 67-26-10-49-33-49-67z" fill="url(#face)" stroke="#cab5db" stroke-width="2"/>
+  <path d="M99 116c7-14 14-23 21-29l-3 25c15-13 28-27 38-43l-2 39c12-16 24-28 40-34l-7 33c8-8 16-13 25-16 1-36-21-67-60-67-42 0-64 30-61 72 2 16 7 26 13 38 1-7 0-12-4-18z" fill="url(#hair)" stroke="#534464" stroke-width="2"/>
+  <path d="M102 126q20-17 39-2-18-5-39 2M159 124q20-15 39 0-19-5-39 0" fill="#33283c"/>
+  <path d="M105 134q16-12 32 0-15 11-32 0M163 134q16-12 32 0-15 11-32 0" fill="#130d1d" stroke="#d1a7ff" stroke-width="1.5"/>
+  <path d="M113 134q8-8 16 0-8 9-16 0M171 134q8-8 16 0-8 9-16 0" fill="#ce9aff" filter="url(#glow)"/>
+  <circle cx="121" cy="134" r="2.2" fill="#f6eaff"/><circle cx="179" cy="134" r="2.2" fill="#f6eaff"/>
+  <path d="M150 137l-5 19 7 3" fill="none" stroke="#65576f" stroke-width="2" stroke-linecap="round"/>
+  <path d="M137 171q13 8 26 0" fill="none" stroke="#4b3c55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M93 91L71 105l6-40-22 19 2-40-18 13C41 21 69 4 97 18l-8-15 29 11 8-14 14 13 17-11 8 18 26-3-7 17c26 8 35 30 26 55l-21-18 5 29-17-16-8-29-23-20-26 25-15 34-18 25z" fill="url(#hair)" stroke="#755c8d" stroke-width="2"/>
+  <path d="M44 288l39-47 26 15-11 44M256 288l-39-47-26 15 11 44" fill="none" stroke="#70ddff" stroke-opacity=".75" stroke-width="2"/>
+  <path d="M149 239v61M98 280l-8 20M202 280l8 20" stroke="#a475db" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M48 206l18 11m186-11-18 11" stroke="#9b76ca" stroke-width="2" opacity=".7"/>
+</svg>

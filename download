@@ -1,0 +1,20 @@
+.arise-data/
+ARISE-Engineering-Mentor-v23/
+tests/
+server.mjs
+Start ARISE.cmd
+Restart ARISE.cmd
+app-v9.js
+app-v10.js
+app-v11.js
+app-v12.js
+app-v13.js
+app-v14.js
+app-v15.js
+app-v16.js
+app-v17.js
+arise-resource-agent-v1.js
+assistant-coach.js
+*.zip
+.env
+.env.*

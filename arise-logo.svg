@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">ARISE</title>
+  <desc id="desc">Original silver-violet hunter wordmark with a rising blade and the words Rise, Achieve, Empower.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".28" stop-color="#c9c6d8"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".72" stop-color="#968ab5"/>
+      <stop offset="1" stop-color="#f8f4ff"/>
+    </linearGradient>
+    <linearGradient id="rift" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#61ddff" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#80e7ff"/>
+      <stop offset=".72" stop-color="#c198ff"/>
+      <stop offset="1" stop-color="#c198ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="wordGlow" x="-20%" y="-30%" width="140%" height="170%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M64 230V62h34M802 62h34v168M93 45h714M93 251h714" fill="none" stroke="url(#rift)" stroke-width="1.5" opacity=".75"/>
+  <path d="M450 17v43m0 172v48" fill="none" stroke="url(#silver)" stroke-width="1.4" opacity=".76"/>
+  <path d="m450 41 8 11-8 11-8-11Z M450 230l8 9-8 9-8-9Z" fill="url(#silver)"/>
+  <path d="M116 62 94 52m690 10 22-10M116 230l-22 10m690-10 22 10" stroke="#b898e9" stroke-width="1" opacity=".7"/>
+  <text x="450" y="177" text-anchor="middle" fill="url(#silver)" stroke="#fff" stroke-opacity=".16" stroke-width="1.2" paint-order="stroke" font-family="Palatino Linotype, Book Antiqua, Georgia, serif" font-size="142" font-weight="600" font-style="italic" letter-spacing="8" filter="url(#wordGlow)">ARISE</text>
+  <path d="M283 207h334" stroke="url(#rift)" stroke-width="1.2"/>
+  <text x="450" y="238" text-anchor="middle" fill="#d2c7e7" font-family="Georgia,serif" font-size="15" font-weight="700" letter-spacing="5.5">RISE · ACHIEVE · EMPOWER</text>
+  <circle cx="273" cy="207" r="2.5" fill="#75e3ff"/><circle cx="627" cy="207" r="2.5" fill="#bd91ff"/>
+</svg>

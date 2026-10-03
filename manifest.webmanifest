@@ -1,0 +1,13 @@
+{
+  "name": "ARISE · Engineering Mentor",
+  "short_name": "ARISE",
+  "description": "Your offline-friendly AI & Data Science engineering study companion.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0812",
+  "theme_color": "#0b0718",
+  "icons": [
+    { "src": "/arise-mark.svg?v=arise-original-1", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
